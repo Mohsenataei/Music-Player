@@ -1,4 +1,4 @@
-package io.github.maa96.musicplayer.utils
+package io.github.maa96.musicplayerlib.util
 
 import kotlinx.coroutines.*
 

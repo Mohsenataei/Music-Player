@@ -4,6 +4,11 @@ import android.content.Context
 import java.io.File
 import javax.inject.Inject
 
+
+data class Person(val name:String){
+
+}
+
 class MagicalMusicPlayer @Inject constructor(
     private val context: Context
 ) {
@@ -17,7 +22,7 @@ class MagicalMusicPlayer @Inject constructor(
     }
 
     @JvmName("setMediaDataSource1")
-    fun setMediaDataSource(dataSource: List<File>) {
+     fun setMediaDataSource(dataSource: List<File>) {
         val paths: MutableList<String> = mutableListOf()
 
         dataSource.forEach {
@@ -25,7 +30,6 @@ class MagicalMusicPlayer @Inject constructor(
         }
         setMediaDataSource(paths)
     }
-
 
 
     /**

@@ -1,9 +1,11 @@
 package io.github.maa96.musicplayer
 
+import android.app.Activity
 import android.content.Context
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
+import android.util.DisplayMetrics
+import android.view.inputmethod.InputMethodManager
+import androidx.appcompat.app.AppCompatActivity
 
 
 class MainActivity : AppCompatActivity() {
@@ -13,11 +15,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        magicalMusicPlayer = MagicalMusicPlayer(this)
 
-        magicalMusicPlayer.setMediaDataSource(listOf("http://81.4.110.89/Puzzle-Sunami-320.mp3"))
 
     }
+
+
+
+
 
 
 }

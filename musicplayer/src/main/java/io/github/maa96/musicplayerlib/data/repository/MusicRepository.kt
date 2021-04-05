@@ -1,5 +1,6 @@
 package io.github.maa96.musicplayerlib.data.repository
 
+import android.content.Context
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import io.github.maa96.musicplayearlib.data.model.Track
@@ -10,7 +11,8 @@ import javax.inject.Inject
 /**
  * This class is responsible for providing music source for service to play*/
 class MusicRepository @Inject constructor(
-    private val musicDataSource: MusicDataSource
+    private val musicDataSource: MusicDataSource,
+    private val context: Context
 ) {
 
     private val _playList: MutableLiveData<List<Track>> = MutableLiveData()

@@ -12,5 +12,5 @@ data class TrackDetail(
     val currentPosition: Int,
     val duration: Int,
     val isPlaying: Boolean,
-    val isLooping: Boolean
+    val isLooping: Boolean 
 ) : Parcelable

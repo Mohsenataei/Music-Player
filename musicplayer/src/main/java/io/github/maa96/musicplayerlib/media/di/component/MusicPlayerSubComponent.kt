@@ -1,7 +1,7 @@
-package io.github.maa96.musicplayerlib.di.component
+package io.github.maa96.musicplayerlib.media.di.component
 
 import dagger.Subcomponent
-import io.github.maa96.musicplayerlib.service.MediaPlayerService
+import io.github.maa96.musicplayerlib.media.service.MediaPlayerService
 
 @Subcomponent
 interface MusicPlayerSubComponent {

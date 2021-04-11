@@ -1,7 +1,6 @@
-package io.github.maa96.musicplayerlib.di.component
+package io.github.maa96.musicplayerlib.media.di.component
 
 import dagger.Module
-import javax.inject.Singleton
 
 @Module(subcomponents = [MusicPlayerSubComponent::class])
 class SubComponentModule {

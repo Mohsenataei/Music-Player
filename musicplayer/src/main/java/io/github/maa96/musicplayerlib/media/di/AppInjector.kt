@@ -1,9 +1,8 @@
-package io.github.maa96.musicplayerlib.di
+package io.github.maa96.musicplayerlib.media.di
 
-import dagger.android.DaggerApplication
 import io.github.maa96.musicplayerlib.MusicApplication
-import io.github.maa96.musicplayerlib.di.component.AppComponent
-import io.github.maa96.musicplayerlib.di.component.DaggerAppComponent
+import io.github.maa96.musicplayerlib.media.di.component.AppComponent
+import io.github.maa96.musicplayerlib.media.di.component.DaggerAppComponent
 
 class AppInjector {
 

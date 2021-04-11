@@ -1,4 +1,4 @@
-package io.github.maa96.musicplayerlib.service
+package io.github.maa96.musicplayerlib.media.service
 
 import android.app.Service
 import android.content.Context
@@ -6,7 +6,7 @@ import android.content.Intent
 import android.media.MediaPlayer
 import android.os.IBinder
 import io.github.maa96.musicplayer.BuildConfig
-import io.github.maa96.musicplayerlib.util.PlayListType
+import io.github.maa96.musicplayerlib.media.util.PlayListType
 import javax.inject.Inject
 
 

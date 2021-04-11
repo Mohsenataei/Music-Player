@@ -1,7 +1,6 @@
-package io.github.maa96.musicplayerlib.service
+package io.github.maa96.musicplayerlib.media.service
 
 import android.os.Bundle
-import android.service.media.MediaBrowserService
 import android.support.v4.media.MediaBrowserCompat
 import androidx.media.MediaBrowserServiceCompat
 

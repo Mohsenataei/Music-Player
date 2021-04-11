@@ -1,9 +1,8 @@
-package io.github.maa96.musicplayerlib.data.model
+package io.github.maa96.musicplayerlib.media.data.model
 
 import android.os.Parcelable
 import io.github.maa96.musicplayearlib.data.model.Track
 import kotlinx.android.parcel.Parcelize
-import java.time.Duration
 
 
 @Parcelize

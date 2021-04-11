@@ -1,4 +1,4 @@
-package io.github.maa96.musicplayerlib.di.builder
+package io.github.maa96.musicplayerlib.media.di.builder
 
 import androidx.lifecycle.ViewModelProvider
 import dagger.Module

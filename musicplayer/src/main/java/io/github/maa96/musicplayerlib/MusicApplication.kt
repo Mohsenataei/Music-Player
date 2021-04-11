@@ -1,11 +1,10 @@
 package io.github.maa96.musicplayerlib
 
-import android.app.Application
 import dagger.android.AndroidInjector
 import dagger.android.DaggerApplication
-import io.github.maa96.musicplayerlib.di.AppInjector
-import io.github.maa96.musicplayerlib.di.component.AppComponent
-import io.github.maa96.musicplayerlib.di.component.DaggerAppComponent
+import io.github.maa96.musicplayerlib.media.di.AppInjector
+import io.github.maa96.musicplayerlib.media.di.component.AppComponent
+import io.github.maa96.musicplayerlib.media.di.component.DaggerAppComponent
 
 class MusicApplication : DaggerApplication() {
 

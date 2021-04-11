@@ -1,4 +1,4 @@
-package io.github.maa96.musicplayerlib.data.datasource
+package io.github.maa96.musicplayerlib.media.data.datasource
 
 import android.content.Context
 import io.github.maa96.musicplayearlib.data.model.Track

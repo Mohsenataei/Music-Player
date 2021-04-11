@@ -1,4 +1,4 @@
-package io.github.maa96.musicplayerlib.di.module
+package io.github.maa96.musicplayerlib.media.di.module
 
 import android.app.Application
 import android.content.Context

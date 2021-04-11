@@ -1,14 +1,12 @@
-package io.github.maa96.musicplayerlib.di.component
+package io.github.maa96.musicplayerlib.media.di.component
 
-import android.app.Application
 import android.content.Context
 import dagger.BindsInstance
 import dagger.Component
 import dagger.android.AndroidInjectionModule
 import dagger.android.AndroidInjector
 import io.github.maa96.musicplayerlib.MusicApplication
-import io.github.maa96.musicplayerlib.di.module.AppModule
-import io.github.maa96.musicplayerlib.service.MediaPlayerService
+import io.github.maa96.musicplayerlib.media.di.module.AppModule
 
 import javax.inject.Singleton
 

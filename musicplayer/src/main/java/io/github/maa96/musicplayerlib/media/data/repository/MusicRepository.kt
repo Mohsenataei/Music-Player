@@ -1,10 +1,10 @@
-package io.github.maa96.musicplayerlib.data.repository
+package io.github.maa96.musicplayerlib.media.data.repository
 
 import android.content.Context
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import io.github.maa96.musicplayearlib.data.model.Track
-import io.github.maa96.musicplayerlib.data.datasource.MusicDataSource
+import io.github.maa96.musicplayerlib.media.data.datasource.MusicDataSource
 import javax.inject.Inject
 
 
